@@ -9,14 +9,15 @@ namespace CursoWindowsForms
     static class Program
     {
         /// <summary>
-        /// The main entry point for the application.
+        /// Ponto de entrada principal para o aplicativo.
         /// </summary>
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_HelloWorld());
+            Application.Run(new Frm_ValidaSenha());
+
         }
     }
 }

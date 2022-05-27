@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{518F3D2D-1D1E-4176-A047-BDF5CAE5DBF3}</ProjectGuid>
+    <ProjectGuid>{D3FBCDA9-1C65-4B25-A82B-E21E69C473C0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>CursoWindowsForms</RootNamespace>
     <AssemblyName>CursoWindowsForms</AssemblyName>
@@ -46,16 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frm_HelloWorld.cs">
+    <Compile Include="Frm_DemostracaoKey.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_HelloWorld.Designer.cs">
-      <DependentUpon>frm_HelloWorld.cs</DependentUpon>
+    <Compile Include="Frm_DemostracaoKey.Designer.cs">
+      <DependentUpon>Frm_DemostracaoKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HelloWorld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HelloWorld.Designer.cs">
+      <DependentUpon>Frm_HelloWorld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ValidaSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ValidaSenha.Designer.cs">
+      <DependentUpon>Frm_ValidaSenha.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frm_HelloWorld.resx">
-      <DependentUpon>frm_HelloWorld.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_DemostracaoKey.resx">
+      <DependentUpon>Frm_DemostracaoKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HelloWorld.resx">
+      <DependentUpon>Frm_HelloWorld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ValidaSenha.resx">
+      <DependentUpon>Frm_ValidaSenha.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
