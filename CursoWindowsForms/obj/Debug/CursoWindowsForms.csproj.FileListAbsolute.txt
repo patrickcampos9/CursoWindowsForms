@@ -21,3 +21,4 @@ C:\projetos\CursoWindowsForms\CursoWindowsForms\bin\Debug\CursoWindowsForms.pdb
 C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ValidaSenha.resources
 C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Mascara.resources
 C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ValidaCPF.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ValidaCPF2.resources

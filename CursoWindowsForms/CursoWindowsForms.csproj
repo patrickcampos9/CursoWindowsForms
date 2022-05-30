@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Frm_Principal.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,11 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Frm_DemostracaoKey.cs">
+    <Compile Include="Cls_Uteis.cs" />
+    <Compile Include="Frm_DemonstracaoKey.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_DemostracaoKey.Designer.cs">
-      <DependentUpon>Frm_DemostracaoKey.cs</DependentUpon>
+    <Compile Include="Frm_DemonstracaoKey.Designer.cs">
+      <DependentUpon>Frm_DemonstracaoKey.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_HelloWorld.cs">
       <SubType>Form</SubType>
@@ -64,11 +68,23 @@
     <Compile Include="Frm_Mascara.Designer.cs">
       <DependentUpon>Frm_Mascara.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Principal.Designer.cs">
+      <DependentUpon>Frm_Principal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_ValidaCPF.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_ValidaCPF.Designer.cs">
       <DependentUpon>Frm_ValidaCPF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ValidaCPF2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ValidaCPF2.Designer.cs">
+      <DependentUpon>Frm_ValidaCPF2.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_ValidaSenha.cs">
       <SubType>Form</SubType>
@@ -78,8 +94,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Frm_DemostracaoKey.resx">
-      <DependentUpon>Frm_DemostracaoKey.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_DemonstracaoKey.resx">
+      <DependentUpon>Frm_DemonstracaoKey.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_HelloWorld.resx">
       <DependentUpon>Frm_HelloWorld.cs</DependentUpon>
@@ -87,8 +103,14 @@
     <EmbeddedResource Include="Frm_Mascara.resx">
       <DependentUpon>Frm_Mascara.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Principal.resx">
+      <DependentUpon>Frm_Principal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_ValidaCPF.resx">
       <DependentUpon>Frm_ValidaCPF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ValidaCPF2.resx">
+      <DependentUpon>Frm_ValidaCPF2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_ValidaSenha.resx">
       <DependentUpon>Frm_ValidaSenha.cs</DependentUpon>
@@ -114,6 +136,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Frm_Principal.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
