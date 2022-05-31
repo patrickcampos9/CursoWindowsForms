@@ -14,3 +14,6 @@ C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.cs
 C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.csproj.CoreCompileInputs.cache
 C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.exe
 C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.pdb
+C:\projetos\CursoWindowsForms\CursoWindowsForms\bin\Release\CursoWindowsFormsBiblioteca.dll
+C:\projetos\CursoWindowsForms\CursoWindowsForms\bin\Release\CursoWindowsFormsBiblioteca.pdb
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.csproj.CopyComplete
