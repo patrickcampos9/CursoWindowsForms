@@ -67,6 +67,12 @@
     <Compile Include="Formulários Curso 1\Frm_Mascara.Designer.cs">
       <DependentUpon>Frm_Mascara.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Menu_Principal_MDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Menu_Principal_MDI.Designer.cs">
+      <DependentUpon>Frm_Menu_Principal_MDI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulários Curso 1\Frm_Mascara.resx">
       <DependentUpon>Frm_Mascara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Menu_Principal_MDI.resx">
+      <DependentUpon>Frm_Menu_Principal_MDI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal.resx">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
