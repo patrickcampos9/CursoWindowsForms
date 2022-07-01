@@ -67,11 +67,35 @@
     <Compile Include="Formulários Curso 1\Frm_Mascara.Designer.cs">
       <DependentUpon>Frm_Mascara.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_DemonstracaoKey_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frm_DemonstracaoKey_UC.Designer.cs">
+      <DependentUpon>Frm_DemonstracaoKey_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HelloWorld_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frm_HelloWorld_UC.Designer.cs">
+      <DependentUpon>Frm_HelloWorld_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Mascara_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frm_Mascara_UC.Designer.cs">
+      <DependentUpon>Frm_Mascara_UC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Menu_Principal_MDI.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_Menu_Principal_MDI.Designer.cs">
       <DependentUpon>Frm_Menu_Principal_MDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Menu_Principal_UC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Menu_Principal_UC.Designer.cs">
+      <DependentUpon>Frm_Menu_Principal_UC.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Principal.cs">
       <SubType>Form</SubType>
@@ -103,6 +127,24 @@
     <Compile Include="Frm_Principal_Menu.Designer.cs">
       <DependentUpon>Frm_Principal_Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_ValidaCPF2_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frm_ValidaCPF2_UC.Designer.cs">
+      <DependentUpon>Frm_ValidaCPF2_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ValidaCPF_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frm_ValidaCPF_UC.Designer.cs">
+      <DependentUpon>Frm_ValidaCPF_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ValidaSenha_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frm_ValidaSenha_UC.Designer.cs">
+      <DependentUpon>Frm_ValidaSenha_UC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formulários Curso 1\Frm_DemonstracaoKey.resx">
@@ -114,8 +156,20 @@
     <EmbeddedResource Include="Formulários Curso 1\Frm_Mascara.resx">
       <DependentUpon>Frm_Mascara.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DemonstracaoKey_UC.resx">
+      <DependentUpon>Frm_DemonstracaoKey_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HelloWorld_UC.resx">
+      <DependentUpon>Frm_HelloWorld_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Mascara_UC.resx">
+      <DependentUpon>Frm_Mascara_UC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Menu_Principal_MDI.resx">
       <DependentUpon>Frm_Menu_Principal_MDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Menu_Principal_UC.resx">
+      <DependentUpon>Frm_Menu_Principal_UC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal.resx">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
@@ -131,6 +185,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal_Menu.resx">
       <DependentUpon>Frm_Principal_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ValidaCPF2_UC.resx">
+      <DependentUpon>Frm_ValidaCPF2_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ValidaCPF_UC.resx">
+      <DependentUpon>Frm_ValidaCPF_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ValidaSenha_UC.resx">
+      <DependentUpon>Frm_ValidaSenha_UC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
