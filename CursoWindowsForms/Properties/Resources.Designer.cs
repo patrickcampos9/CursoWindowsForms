@@ -133,6 +133,46 @@ namespace CursoWindowsForms.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Frm_Questao_light_bulb {
+            get {
+                object obj = ResourceManager.GetObject("Frm_Questao_light_bulb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon Frm_Questao_light_bulb1 {
+            get {
+                object obj = ResourceManager.GetObject("Frm_Questao_light_bulb1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Frm_Questao_pasta {
+            get {
+                object obj = ResourceManager.GetObject("Frm_Questao_pasta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon Frm_Questao_pasta1 {
+            get {
+                object obj = ResourceManager.GetObject("Frm_Questao_pasta1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Frm_ValidaCPF {
             get {
                 object obj = ResourceManager.GetObject("Frm_ValidaCPF", resourceCulture);
@@ -187,6 +227,16 @@ namespace CursoWindowsForms.Properties {
             get {
                 object obj = ResourceManager.GetObject("Frm_ValidaSenha1", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap key {
+            get {
+                object obj = ResourceManager.GetObject("key", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

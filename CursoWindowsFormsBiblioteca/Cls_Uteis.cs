@@ -94,6 +94,15 @@ namespace CursoWindowsFormsBiblioteca
             }
         }
 
+        public static bool validaSenhaLogin(string senha)
+        {
+            if (senha == "admin123")
+            {
+                return true;
+            }
+            return false;
+        }
+
         public static bool Valida(string cpf)
         {
             int[] multiplicador1 = new int[9] { 10, 9, 8, 7, 6, 5, 4, 3, 2 };

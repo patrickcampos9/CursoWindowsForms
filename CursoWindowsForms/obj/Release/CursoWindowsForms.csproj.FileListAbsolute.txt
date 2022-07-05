@@ -17,3 +17,15 @@ C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.pd
 C:\projetos\CursoWindowsForms\CursoWindowsForms\bin\Release\CursoWindowsFormsBiblioteca.dll
 C:\projetos\CursoWindowsForms\CursoWindowsForms\bin\Release\CursoWindowsFormsBiblioteca.pdb
 C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.csproj.CopyComplete
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_DemonstracaoKey_UC.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_HelloWorld_UC.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Login.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Mascara_UC.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Menu_Principal_MDI.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Menu_Principal_UC.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Principal_Menu.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Questao.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaCPF2_UC.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaCPF_UC.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaSenha_UC.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ArquivoImagem_UC.resources

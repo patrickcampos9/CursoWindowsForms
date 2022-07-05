@@ -40,11 +40,15 @@ namespace CursoWindowsForms
             this.validaCPFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.validaCPF2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.validaSenhaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.apagarAbaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.açõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.abrirImagemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Tbc_Aplicacoes = new System.Windows.Forms.TabControl();
             this.Iml_images = new System.Windows.Forms.ImageList(this.components);
-            this.apagarAbaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.desconectarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.conectarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Mnu_Principal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,6 +56,7 @@ namespace CursoWindowsForms
             // 
             this.Mnu_Principal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.arquivoToolStripMenuItem,
+            this.açõesToolStripMenuItem,
             this.windowsToolStripMenuItem});
             this.Mnu_Principal.Location = new System.Drawing.Point(0, 0);
             this.Mnu_Principal.Name = "Mnu_Principal";
@@ -61,6 +66,8 @@ namespace CursoWindowsForms
             // arquivoToolStripMenuItem
             // 
             this.arquivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.conectarToolStripMenuItem,
+            this.desconectarToolStripMenuItem,
             this.novoToolStripMenuItem,
             this.apagarAbaToolStripMenuItem,
             this.sairToolStripMenuItem});
@@ -135,12 +142,35 @@ namespace CursoWindowsForms
             this.validaSenhaToolStripMenuItem.Text = "Valida &Senha";
             this.validaSenhaToolStripMenuItem.Click += new System.EventHandler(this.validaSenhaToolStripMenuItem_Click);
             // 
+            // apagarAbaToolStripMenuItem
+            // 
+            this.apagarAbaToolStripMenuItem.Name = "apagarAbaToolStripMenuItem";
+            this.apagarAbaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.apagarAbaToolStripMenuItem.Text = "Apagar Aba";
+            this.apagarAbaToolStripMenuItem.Click += new System.EventHandler(this.apagarAbaToolStripMenuItem_Click);
+            // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // açõesToolStripMenuItem
+            // 
+            this.açõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.abrirImagemToolStripMenuItem});
+            this.açõesToolStripMenuItem.Name = "açõesToolStripMenuItem";
+            this.açõesToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+            this.açõesToolStripMenuItem.Text = "Ações";
+            // 
+            // abrirImagemToolStripMenuItem
+            // 
+            this.abrirImagemToolStripMenuItem.Image = global::CursoWindowsForms.Properties.Resources.Frm_Questao_pasta;
+            this.abrirImagemToolStripMenuItem.Name = "abrirImagemToolStripMenuItem";
+            this.abrirImagemToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.abrirImagemToolStripMenuItem.Text = "Abrir Imagem";
+            this.abrirImagemToolStripMenuItem.Click += new System.EventHandler(this.abrirImagemToolStripMenuItem_Click);
             // 
             // windowsToolStripMenuItem
             // 
@@ -168,13 +198,22 @@ namespace CursoWindowsForms
             this.Iml_images.Images.SetKeyName(3, "Frm_ValidaCPF.png");
             this.Iml_images.Images.SetKeyName(4, "Frm_ValidaCPF2.png");
             this.Iml_images.Images.SetKeyName(5, "Frm_ValidaSenha.png");
+            this.Iml_images.Images.SetKeyName(6, "Frm_Questao_light-bulb.ico");
+            this.Iml_images.Images.SetKeyName(7, "Frm_Questao_pasta.ico");
             // 
-            // apagarAbaToolStripMenuItem
+            // desconectarToolStripMenuItem
             // 
-            this.apagarAbaToolStripMenuItem.Name = "apagarAbaToolStripMenuItem";
-            this.apagarAbaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.apagarAbaToolStripMenuItem.Text = "Apagar Aba";
-            this.apagarAbaToolStripMenuItem.Click += new System.EventHandler(this.apagarAbaToolStripMenuItem_Click);
+            this.desconectarToolStripMenuItem.Name = "desconectarToolStripMenuItem";
+            this.desconectarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.desconectarToolStripMenuItem.Text = "Desconectar";
+            this.desconectarToolStripMenuItem.Click += new System.EventHandler(this.desconectarToolStripMenuItem_Click);
+            // 
+            // conectarToolStripMenuItem
+            // 
+            this.conectarToolStripMenuItem.Name = "conectarToolStripMenuItem";
+            this.conectarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.conectarToolStripMenuItem.Text = "Conectar";
+            this.conectarToolStripMenuItem.Click += new System.EventHandler(this.conectarToolStripMenuItem_Click);
             // 
             // Frm_Menu_Principal_UC
             // 
@@ -183,6 +222,7 @@ namespace CursoWindowsForms
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Tbc_Aplicacoes);
             this.Controls.Add(this.Mnu_Principal);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.Mnu_Principal;
             this.Name = "Frm_Menu_Principal_UC";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -210,5 +250,9 @@ namespace CursoWindowsForms
         private System.Windows.Forms.TabControl Tbc_Aplicacoes;
         private System.Windows.Forms.ImageList Iml_images;
         private System.Windows.Forms.ToolStripMenuItem apagarAbaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem açõesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem abrirImagemToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem conectarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem desconectarToolStripMenuItem;
     }
 }
