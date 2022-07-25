@@ -38,3 +38,7 @@ C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_
 C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ValidaSenha_UC.resources
 C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ArquivoImagem_UC.resources
 C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Login.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Menu_Flutuante.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_MouseCaptura.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_MouseCursor.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_MouseEventos.resources
