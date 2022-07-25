@@ -91,6 +91,12 @@
     <Compile Include="Formulários Curso 2\Frm_Mascara_UC.Designer.cs">
       <DependentUpon>Frm_Mascara_UC.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_CadastroCliente_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frm_CadastroCliente_UC.Designer.cs">
+      <DependentUpon>Frm_CadastroCliente_UC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Menu_Flutuante.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -210,6 +216,9 @@
     <EmbeddedResource Include="Formulários Curso 2\Frm_Mascara_UC.resx">
       <DependentUpon>Frm_Mascara_UC.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_CadastroCliente_UC.resx">
+      <DependentUpon>Frm_CadastroCliente_UC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Menu_Flutuante.resx">
       <DependentUpon>Frm_Menu_Flutuante.cs</DependentUpon>
     </EmbeddedResource>
@@ -282,6 +291,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Imagens\Cadastros.png" />
     <Content Include="Imagens\DeleteAll.png" />
     <Content Include="Imagens\DeleteLeft.png" />
     <Content Include="Imagens\DeleteRight.png" />
@@ -293,6 +303,8 @@
     <Content Include="Imagens\Frm_Mascara.ico" />
     <Content Include="Imagens\Frm_Mascara.png" />
     <Content Include="Imagens\Frm_Principal.ico" />
+    <Content Include="Imagens\money.png" />
+    <Content Include="Imagens\user.png" />
     <None Include="Imagens\key.png" />
     <None Include="Imagens\Frm_Questao_light-bulb.png" />
     <None Include="Imagens\Frm_Questao_pasta.png" />
