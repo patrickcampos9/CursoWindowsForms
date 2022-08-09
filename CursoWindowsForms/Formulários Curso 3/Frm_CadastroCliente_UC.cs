@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CursoWindowsFormsBiblioteca.Classes;
+using System.ComponentModel.DataAnnotations;
+using Microsoft.VisualBasic;
 
 namespace CursoWindowsForms
 {
@@ -68,6 +71,12 @@ namespace CursoWindowsForms
             Cmb_Estados.Items.Add("São Paulo(SP)");
             Cmb_Estados.Items.Add("Sergipe(SE)");
             Cmb_Estados.Items.Add("Tocantins(TO)");
+
+            Tls_Principal.Items[0].ToolTipText = "Incluir na base de dados um novo cliente";
+            Tls_Principal.Items[1].ToolTipText = "Capturar um cliente já cadastrado na base";
+            Tls_Principal.Items[2].ToolTipText = "Atualize o cliente já existente";
+            Tls_Principal.Items[3].ToolTipText = "Apaga o cliente selecionado";
+            Tls_Principal.Items[4].ToolTipText = "Limpa dados da tela de entrada de dados";
         }
 
         private void Chk_TemPai_CheckedChanged(object sender, EventArgs e)
@@ -80,6 +89,108 @@ namespace CursoWindowsForms
             {
                 Txt_NomePai.Enabled = true;
             }
+        }
+
+        private void newToolStripButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Cliente.Unit C = new Cliente.Unit();
+                C = LeituraFormulario();
+                C.ValidaClasse();
+                C.ValidaComplemento();
+                MessageBox.Show("Classe foi inicializada sem erros", "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (ValidationException Ex)
+            {
+                MessageBox.Show(Ex.Message, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void openToolStripButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Efetuei um clique sobre o botão ABRIR");
+        }
+
+        private void saveToolStripButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Efetuei um clique sobre o botão SALVAR");
+        }
+
+        private void apagarToolStripButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Efetuei um clique sobre o botão EXCLUIR");
+        }
+
+        private void limparToolStripButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Efetuei um clique sobre o botão LIMPAR");
+        }
+
+        Cliente.Unit LeituraFormulario()
+        {
+            Cliente.Unit C = new Cliente.Unit();
+            C.Id = Txt_Codigo.Text;
+            C.Nome = Txt_NomeCliente.Text;
+            C.NomeMae = Txt_NomeMae.Text;
+            C.NomePai = Txt_NomePai.Text;
+            if (Chk_TemPai.Checked)
+            {
+                C.NaoTemPai = true;
+            }
+            else
+            {
+                C.NaoTemPai = false;
+            }
+            if (Rdb_Masculino.Checked)
+            {
+                C.Genero = 0;
+            }
+            if (Rdb_Feminino.Checked)
+            {
+                C.Genero = 1;
+            }
+            if (Rdb_Indefinido.Checked)
+            {
+                C.Genero = 2;
+            }
+            C.Cpf = Txt_CPF.Text;
+
+            C.Cep = Txt_CEP.Text;
+            C.Logradouro = Txt_Logradouro.Text;
+            C.Complemento = Txt_Complemento.Text;
+            C.Cidade = Txt_Cidade.Text;
+            C.Bairro = Txt_Bairro.Text;
+
+            if (Cmb_Estados.SelectedIndex < 0)
+            {
+                C.Estado = "";
+            }
+            else
+            {
+                C.Estado = Cmb_Estados.Items[Cmb_Estados.SelectedIndex].ToString();
+            }
+
+            C.Telefone = Txt_Telefone.Text;
+            C.Profissao = Txt_Profissao.Text;
+
+            if (Information.IsNumeric(Txt_RendaFamiliar.Text))
+            {
+                Double vRenda = Convert.ToDouble(Txt_RendaFamiliar.Text);
+                if (vRenda < 0)
+                {
+                    C.RendaFamiliar = 0;
+                }
+                else
+                {
+                    C.RendaFamiliar = vRenda;
+                }
+            }
+            return C;
         }
     }
 }
