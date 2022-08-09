@@ -3,3 +3,7 @@ C:\projetos\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Release\CursoWindo
 C:\projetos\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.csproj.CoreCompileInputs.cache
 C:\projetos\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.dll
 C:\projetos\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.pdb
+C:\projetos\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Release\Newtonsoft.Json.dll
+C:\projetos\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Release\Newtonsoft.Json.xml
+C:\projetos\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.csproj.AssemblyReference.cache
+C:\projetos\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.csproj.CopyComplete

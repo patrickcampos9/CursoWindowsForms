@@ -185,6 +185,7 @@ namespace CursoWindowsForms
             this.Txt_CEP.Name = "Txt_CEP";
             this.Txt_CEP.Size = new System.Drawing.Size(132, 20);
             this.Txt_CEP.TabIndex = 11;
+            this.Txt_CEP.Leave += new System.EventHandler(this.Txt_CEP_Leave);
             // 
             // Lbl_Logradouro
             // 

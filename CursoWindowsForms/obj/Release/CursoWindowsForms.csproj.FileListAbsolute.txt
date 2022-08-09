@@ -29,3 +29,10 @@ C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Fr
 C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaCPF_UC.resources
 C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaSenha_UC.resources
 C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ArquivoImagem_UC.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\bin\Release\Newtonsoft.Json.dll
+C:\projetos\CursoWindowsForms\CursoWindowsForms\bin\Release\Newtonsoft.Json.xml
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_CadastroCliente_UC.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Menu_Flutuante.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_MouseCaptura.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_MouseCursor.resources
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_MouseEventos.resources

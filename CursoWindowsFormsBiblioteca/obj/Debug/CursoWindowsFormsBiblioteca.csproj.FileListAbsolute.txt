@@ -4,3 +4,6 @@ C:\projetos\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindows
 C:\projetos\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.CoreCompileInputs.cache
 C:\projetos\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.dll
 C:\projetos\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.pdb
+C:\projetos\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Debug\Newtonsoft.Json.dll
+C:\projetos\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Debug\Newtonsoft.Json.xml
+C:\projetos\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.CopyComplete
