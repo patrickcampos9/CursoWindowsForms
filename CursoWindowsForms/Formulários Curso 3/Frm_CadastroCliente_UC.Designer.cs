@@ -38,8 +38,6 @@ namespace CursoWindowsForms
             this.Txt_NomePai = new System.Windows.Forms.TextBox();
             this.Lbl_NomeMae = new System.Windows.Forms.Label();
             this.Txt_NomeMae = new System.Windows.Forms.TextBox();
-            this.Lbl_Genero = new System.Windows.Forms.Label();
-            this.Txt_Genero = new System.Windows.Forms.TextBox();
             this.Lbl_CEP = new System.Windows.Forms.Label();
             this.Txt_CEP = new System.Windows.Forms.TextBox();
             this.Lbl_Logradouro = new System.Windows.Forms.Label();
@@ -153,22 +151,6 @@ namespace CursoWindowsForms
             this.Txt_NomeMae.Name = "Txt_NomeMae";
             this.Txt_NomeMae.Size = new System.Drawing.Size(445, 20);
             this.Txt_NomeMae.TabIndex = 3;
-            // 
-            // Lbl_Genero
-            // 
-            this.Lbl_Genero.AutoSize = true;
-            this.Lbl_Genero.Location = new System.Drawing.Point(8, 149);
-            this.Lbl_Genero.Name = "Lbl_Genero";
-            this.Lbl_Genero.Size = new System.Drawing.Size(35, 13);
-            this.Lbl_Genero.TabIndex = 8;
-            this.Lbl_Genero.Text = "label1";
-            // 
-            // Txt_Genero
-            // 
-            this.Txt_Genero.Location = new System.Drawing.Point(8, 165);
-            this.Txt_Genero.Name = "Txt_Genero";
-            this.Txt_Genero.Size = new System.Drawing.Size(422, 20);
-            this.Txt_Genero.TabIndex = 9;
             // 
             // Lbl_CEP
             // 
@@ -323,13 +305,11 @@ namespace CursoWindowsForms
             this.Grp_DadosPessoais.Controls.Add(this.Txt_NomePai);
             this.Grp_DadosPessoais.Controls.Add(this.Lbl_NomeMae);
             this.Grp_DadosPessoais.Controls.Add(this.Txt_NomeMae);
-            this.Grp_DadosPessoais.Controls.Add(this.Lbl_Genero);
-            this.Grp_DadosPessoais.Controls.Add(this.Txt_Genero);
             this.Grp_DadosPessoais.Controls.Add(this.Lbl_CPF);
             this.Grp_DadosPessoais.Controls.Add(this.Txt_CPF);
             this.Grp_DadosPessoais.Location = new System.Drawing.Point(12, 93);
             this.Grp_DadosPessoais.Name = "Grp_DadosPessoais";
-            this.Grp_DadosPessoais.Size = new System.Drawing.Size(685, 219);
+            this.Grp_DadosPessoais.Size = new System.Drawing.Size(685, 186);
             this.Grp_DadosPessoais.TabIndex = 30;
             this.Grp_DadosPessoais.TabStop = false;
             this.Grp_DadosPessoais.Text = "groupBox1";
@@ -337,7 +317,7 @@ namespace CursoWindowsForms
             // Chk_TemPai
             // 
             this.Chk_TemPai.AutoSize = true;
-            this.Chk_TemPai.Location = new System.Drawing.Point(8, 188);
+            this.Chk_TemPai.Location = new System.Drawing.Point(11, 161);
             this.Chk_TemPai.Name = "Chk_TemPai";
             this.Chk_TemPai.Size = new System.Drawing.Size(80, 17);
             this.Chk_TemPai.TabIndex = 10;
@@ -404,7 +384,7 @@ namespace CursoWindowsForms
             this.Grp_Endereco.Controls.Add(this.Lbl_Bairro);
             this.Grp_Endereco.Controls.Add(this.Txt_Bairro);
             this.Grp_Endereco.Controls.Add(this.Lbl_Estado);
-            this.Grp_Endereco.Location = new System.Drawing.Point(12, 318);
+            this.Grp_Endereco.Location = new System.Drawing.Point(12, 285);
             this.Grp_Endereco.Name = "Grp_Endereco";
             this.Grp_Endereco.Size = new System.Drawing.Size(685, 150);
             this.Grp_Endereco.TabIndex = 30;
@@ -443,7 +423,7 @@ namespace CursoWindowsForms
             this.Grp_Outros.Controls.Add(this.Txt_Profissao);
             this.Grp_Outros.Controls.Add(this.Lbl_RendaFamiliar);
             this.Grp_Outros.Controls.Add(this.Txt_RendaFamiliar);
-            this.Grp_Outros.Location = new System.Drawing.Point(12, 474);
+            this.Grp_Outros.Location = new System.Drawing.Point(12, 441);
             this.Grp_Outros.Name = "Grp_Outros";
             this.Grp_Outros.Size = new System.Drawing.Size(685, 111);
             this.Grp_Outros.TabIndex = 30;
@@ -524,7 +504,7 @@ namespace CursoWindowsForms
             this.Controls.Add(this.Grp_DadosPessoais);
             this.Controls.Add(this.Grp_Codigo);
             this.Name = "Frm_CadastroCliente_UC";
-            this.Size = new System.Drawing.Size(715, 626);
+            this.Size = new System.Drawing.Size(715, 566);
             this.Grp_Codigo.ResumeLayout(false);
             this.Grp_Codigo.PerformLayout();
             this.Grp_DadosPessoais.ResumeLayout(false);
@@ -552,8 +532,6 @@ namespace CursoWindowsForms
         private System.Windows.Forms.TextBox Txt_NomePai;
         private System.Windows.Forms.Label Lbl_NomeMae;
         private System.Windows.Forms.TextBox Txt_NomeMae;
-        private System.Windows.Forms.Label Lbl_Genero;
-        private System.Windows.Forms.TextBox Txt_Genero;
         private System.Windows.Forms.Label Lbl_CEP;
         private System.Windows.Forms.TextBox Txt_CEP;
         private System.Windows.Forms.Label Lbl_Logradouro;
