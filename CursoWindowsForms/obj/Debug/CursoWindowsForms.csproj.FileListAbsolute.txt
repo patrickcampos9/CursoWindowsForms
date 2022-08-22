@@ -45,3 +45,4 @@ C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_
 C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_CadastroCliente_UC.resources
 C:\projetos\CursoWindowsForms\CursoWindowsForms\bin\Debug\Newtonsoft.Json.dll
 C:\projetos\CursoWindowsForms\CursoWindowsForms\bin\Debug\Newtonsoft.Json.xml
+C:\projetos\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Busca.resources

@@ -105,6 +105,12 @@
     <Compile Include="Formulários Curso 3\Frm_Menu_Flutuante.Designer.cs">
       <DependentUpon>Frm_Menu_Flutuante.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Busca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Busca.Designer.cs">
+      <DependentUpon>Frm_Busca.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Menu_Principal_MDI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -223,6 +229,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulários Curso 3\Frm_Menu_Flutuante.resx">
       <DependentUpon>Frm_Menu_Flutuante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Busca.resx">
+      <DependentUpon>Frm_Busca.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Menu_Principal_MDI.resx">
       <DependentUpon>Frm_Menu_Principal_MDI.cs</DependentUpon>
